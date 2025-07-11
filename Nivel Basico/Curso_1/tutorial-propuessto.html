@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+        }
+
+        section {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 100px;
+
+        }
+
+        .card {
+            width: 400px;
+            height: 360px;
+            background-color: black;
+            border-radius: 20px;
+            position: relative;
+            padding-top: 60px;
+
+
+        }
+
+        .card .icono {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            position: absolute;
+            justify-content: center;
+            margin: 50%;
+            top: -65%;
+            transform: translateX(-50%);
+            border: 4px solid white;
+            z-index: 5;
+        }
+
+        .card .fondo {
+            width: 100%;
+            height: 200px;
+            position: absolute;
+            top: 0;
+            object-fit: cover;
+            border-radius: 20px 20px 0 0;
+            z-index: 1;
+        }
+
+        .card h1 {
+            position: relative;
+            z-index: 2;
+            margin-top: 30px;
+            text-align: center;
+            color: white;
+            font-size: 1.5em;
+        }
+
+        .card h1 span {
+            color: green;
+
+
+        }
+
+        .card p {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            padding: 0 8px;
+            color: white;
+            margin-top: 20px;
+            font-size: 1.2em;
+        }
+
+        .link {
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+
+        }
+
+
+        .link .juego {
+            background-color: limegreen;
+            padding: 10px;
+            border-radius: 5px;
+            color: white;
+        }
+
+        .link .consola {
+            background-color: white;
+            padding: 10px;
+            border-radius: 5px;
+            color: #6d00cc;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+
+        <div class="card">
+            <img class="icono" src="https://images.pexels.com/photos/1637438/pexels-photo-1637438.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="Videogames">
+            <img class="fondo"
+                src="https://images.pexels.com/photos/8108656/pexels-photo-8108656.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="">
+            <h1>Bienvenidos a un mundo <span> donde tus sueños</span></h1>
+            <p>Se hacen posibles.</p>
+
+            <div class="link">
+                <a class="juego" href="https://www.redbull.com/es-es/los-mejores-juegos-2025" target="_blank" rel="noopener" >Encuentra tu juego </a>
+                <a class="consola" href="https://www-nytimes-com.translate.goog/wirecutter/reviews/best-game-consoles/?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc&_x_tr_hist=true" target="_blank" rel="noopener">Encuentra tu consola</a>
+            </div>
+        </div>
+
+    </section>
+</body>
+
+
+</html>

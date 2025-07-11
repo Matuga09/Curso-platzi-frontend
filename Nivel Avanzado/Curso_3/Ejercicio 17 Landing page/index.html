@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biografia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="contenedor-principal">
+        <header class="cabecera">
+            <nav class="barra-navegacion">
+                <div class="logo">
+                    <h2>Mi Biografia</h2>
+                </div>
+                <div class="enlaces-nav">
+                    <a href="#hobbies">Hobbies</a>
+                    <a href="#habilidades">Habilidades</a>
+                    <a href="#contacto">Contacto</a>
+                </div>
+            </nav>
+        </header>
+
+        <section class="hero">
+            <h1>Hola, soy <span>Matias Chica</span></h1>
+            <p>Tengo 16 años y esta es una pequeña biografia</p>
+            <a href="#contacto" class="boton-accion">Contáctame</a>
+        </section>
+
+        <section id="hobbies" class="hobbies">
+            <h2>Mis Hobbies</h2>
+            <div class="cuadricula-hobbies">
+                <!-- Hobby 1 -->
+                <article class="tarjeta-hobbies">
+                    <div class="imagen-hobbies">
+                        <img src="https://i.pinimg.com/736x/ec/9d/30/ec9d30ad1380ba3d03ab47311b514c2a.jpg">
+                    </div>
+                    <div class="contenido-hobbies">
+                        <h3>Música</h3>
+                        <p>Escucho todo tipo de música pero estos son algunos de los generos que mas escucho</p>
+                        <div class="etiquetas-hobbies">
+                            <span class="etiqueta">Rap en inglés</span>
+                            <span class="etiqueta">Rock/Metal</span>
+                            <span class="etiqueta">Rap en español</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Hobby 2 -->
+                <article class="tarjeta-hobbies">
+                    <div class="imagen-hobbies">
+                        <img src="https://i.pinimg.com/736x/b7/e8/fe/b7e8fe377298a9d26761dd9239cc1f53.jpg">
+                    </div>
+                    <div class="contenido-hobbies">
+                        <h3>Anime</h3>
+                        <p>No veo un genero de anime en especifico pero estos son algunos de mis favoritos</p>
+                        <div class="etiquetas-hobbies">
+                            <span class="etiqueta">Berserk</span>
+                            <span class="etiqueta">One piece</span>
+                            <span class="etiqueta">Hajime no Ippo</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Hobby 3 -->
+                <article class="tarjeta-hobbies">
+                    <div class="imagen-hobbies">
+                        <img src="https://i.pinimg.com/736x/9c/18/2d/9c182d5d8b296ee8c0c91c3c3c064e3a.jpg">
+                    </div>
+                    <div class="contenido-hobbies">
+                        <h3>Videojuegos</h3>
+                        <p>Aunque prefiero jugar acompañado, mi tipo de juegos preferidos son los indies y estos son mis favoritos</p>
+                        <div class="etiquetas-hobbies">
+                            <span class="etiqueta">Cuphead</span>
+                            <span class="etiqueta">Blasphemous</span>
+                            <span class="etiqueta">Hollow Knight</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="habilidades" class="habilidades">
+            <h2>Mis Habilidades</h2>
+            <div class="contenedor-habilidades">
+                <div class="item-habilidad">
+                    <h3>Manejo del ingles</h3>
+                    <p>Soy nivel de ingles B2 certificado por Comfama</p>
+                </div>
+                <div class="item-habilidad">
+                    <h3>Practico en programacion de software (en proceso)</h3>
+                    <p>Actualmente estoy haciendo mi etapa practica del TPS para certificartme</p>
+                </div>
+                <div class="item-habilidad">
+                    <h3>Adaptabilidad</h3>
+                    <p>Me adapto bastante facil al entorno de trabajo en el que deba de estar</p>
+                </div>
+                <div class="item-habilidad">
+                    <h3>Creatividad</h3>
+                    <p>Soy bastante creativo en muchos aspectos</p>
+                </div>
+                <div class="item-habilidad">
+                    <h3>Comunicacion efectiva</h3>
+                    <p>Me expreso con claridad y escucho a los demas para hacer un buen trabajo en equipo</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="contacto">
+            <h2>Contacto</h2>
+            <form class="formulario-contacto">
+                <div class="grupo-formulario">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" class="control-formulario" required>
+                </div>
+                <div class="grupo-formulario">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" class="control-formulario" required>
+                </div>
+                <div class="grupo-formulario">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" class="control-formulario" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="boton-accion2">Enviar mensaje</button>
+            </form>
+        </section>
+
+
+    </div>
+</body>
+
+</html>
